@@ -1,0 +1,181 @@
+body{
+    width: 100%;
+    margin: 0%;
+ /*   box-shadow: 2em -2em 2em black inset;*/
+}
+
+header{
+    background-color: rgb(247, 247, 247);
+    height: auto;
+    width: 100%;
+ /*   box-shadow: 2em 2em 2em inset;*/
+}
+
+nav{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
+
+li{
+    margin: 5px 0 5px 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+}
+
+section{
+    text-align: center;
+}
+a:hover{
+    color: darkblue;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.Blocs_ligne{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Logos_row{
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.colonnesCreations{
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.separateurs{
+    text-align: center;
+}
+
+.carte{
+    width: 30%;
+    height: 300px;
+    padding: 1em 20px 0 20px;
+    margin: 2em 1em 2em 1em;
+    flex: 1 0 80px;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: contain;
+    border-radius: 5px;
+    background: rgb(247, 247, 247);
+    box-shadow: 0.5px 0.5px 2px inset;
+}
+
+
+.description{
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+
+.cartesprojets{
+    width: 50px;
+    height: 70px;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+
+.cartesprojets:hover{
+    transform: rotateY(180deg);
+}
+
+.devant{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    backface-visibility: hidden;
+    background: #ffc728 ;
+    color: #333;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.derriere{
+    position: absolute;
+    width: 50px;
+    height: 70px;
+    backface-visibility: hidden;
+    background: blue ;
+    color: #333;
+    text-align: center;
+    border-radius: 20px;
+    transform: rotateY(180deg);
+}
+
+.nav-bar{
+    margin: 10px;
+}
+
+#banderole{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3em;
+    margin-left: 5em;
+    margin-bottom: 0px;
+}
+
+#nav-principale{
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+#logo_SMS {
+    flex-grow: 0.5;
+    object-fit: contain;
+    align-items: center;
+    min-width: 30px ;
+    height: 150px;
+
+}
+
+#nom{
+    flex-grow: 2;
+    align-items: center;
+    padding: 0 25% 0 25%;
+
+}
+
+#creations{
+    display: flex;
+}
+
+#copyright{
+    margin: 20px 0 0 20%;
+}
+
+
+
+
